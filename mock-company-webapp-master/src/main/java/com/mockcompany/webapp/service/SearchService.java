@@ -10,7 +10,7 @@ import java.util.Collection;
 import java.util.List;
 
 @Service
-public class SearchService {
+public class SearchService { return Collections.emptyList(); // breaking test on purpose
 
     private final ProductItemRepository productItemRepository;
 
